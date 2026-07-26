@@ -1,0 +1,235 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "default_value": null,
+        "id": "fldOumRbCz",
+        "name": "任务详情",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld7pXxfJW",
+        "name": "标题",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldlizXKAu",
+        "multiple": true,
+        "name": "标签",
+        "options": [
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "P0"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "P1"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "P2"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "P3"
+          },
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "紧急"
+          },
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "重要"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "等待"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "待办"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldDbnCfm5",
+        "multiple": true,
+        "name": "共同参与人",
+        "type": "user"
+      },
+      {
+        "default_value": null,
+        "id": "fld76dU0A3",
+        "multiple": false,
+        "name": "类型",
+        "options": [
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "任务"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "项目"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "会议"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "成果"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldcjgZpA0",
+        "name": "备注",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "fldGm2wlzD",
+        "name": "创建日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "created_at"
+      },
+      {
+        "default_value": null,
+        "id": "flduDlT7Yz",
+        "multiple": false,
+        "name": "优先级",
+        "options": [
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "P0"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "P1"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "P2"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "P3"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldf41RtiL",
+        "multiple": false,
+        "name": "负责人",
+        "type": "user"
+      },
+      {
+        "default_value": null,
+        "id": "fldVADNumR",
+        "multiple": false,
+        "name": "状态",
+        "options": [
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "待启动"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "进行中"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "已阻塞"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "已完成"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "已取消"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldH6MzVHw",
+        "name": "截止日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "default_value": null,
+        "id": "fldht37kzy",
+        "name": "进度",
+        "style": {
+          "color": "Blue",
+          "percentage": true,
+          "type": "progress"
+        },
+        "type": "number"
+      },
+      {
+        "bidirectional": true,
+        "bidirectional_link_field_id": "fldqrJKGVE",
+        "id": "fldhnBIq91",
+        "link_table": "tbluMBJGAKMCMl2G",
+        "name": "父项/子项",
+        "type": "link"
+      }
+    ],
+    "total": 13
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.60",
+      "latest": "1.0.77",
+      "message": "lark-cli 1.0.77 available, current 1.0.60, run: lark-cli update"
+    }
+  }
+}

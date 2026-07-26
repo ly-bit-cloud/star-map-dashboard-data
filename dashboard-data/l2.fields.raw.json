@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "bidirectional": false,
+        "id": "fld0SMJ8fX",
+        "link_table": "tblokEQHWJwp7Tqh",
+        "name": "关联顶层设计",
+        "type": "link"
+      },
+      {
+        "default_value": null,
+        "id": "fldCHm8zni",
+        "multiple": false,
+        "name": "状态",
+        "options": [
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "草稿"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "评审"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "落地"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldjcMoul3",
+        "name": "主线",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "bidirectional": false,
+        "id": "fldsqc3zm4",
+        "link_table": "tblCRKD0ivF1qcYH",
+        "name": "关联知识条目",
+        "type": "link"
+      },
+      {
+        "default_value": null,
+        "id": "fldQa8Qzi2",
+        "name": "痛点",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldmxCwpaW",
+        "multiple": false,
+        "name": "业务线",
+        "options": [
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "财务"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldDz7EDbv",
+        "name": "流程名",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldwLl3qkY",
+        "name": "输入",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld10qT3bF",
+        "name": "输出",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld5JKMGbd",
+        "multiple": false,
+        "name": "层级",
+        "options": [
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "集团"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "板块"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "部门"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldOBNSQnG",
+        "name": "数字化机会",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "bidirectional": true,
+        "bidirectional_link_field_id": "fld8TITzos",
+        "id": "fldkF3oiLd",
+        "link_table": "tbld44JtQaj95aEk",
+        "name": "关联议题 (L4)",
+        "type": "link"
+      }
+    ],
+    "total": 12
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.60",
+      "latest": "1.0.77",
+      "message": "lark-cli 1.0.77 available, current 1.0.60, run: lark-cli update"
+    }
+  }
+}

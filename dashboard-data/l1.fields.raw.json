@@ -1,0 +1,389 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "default_value": null,
+        "id": "fldWEasERl",
+        "multiple": false,
+        "name": "状态",
+        "options": [
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "待读"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "已读"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "已提炼"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "已应用"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "废弃"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "bidirectional": false,
+        "id": "fldK68pDVe",
+        "link_table": "tblKUtNYD9HqhBUk",
+        "name": "关联流程",
+        "type": "link"
+      },
+      {
+        "default_value": null,
+        "id": "fldKAlqF1x",
+        "name": "日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "default_value": null,
+        "id": "fldzo97TD0",
+        "name": "标题",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldEA5hbVh",
+        "name": "来源",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld3iOApJg",
+        "multiple": true,
+        "name": "tags",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "顶层设计"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "数据治理"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "系统建设"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "三型财务"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "财务共享"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "战略"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "世界一流"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "国资委"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "数智化"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "数字化转型"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "AI财务"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "穿透式监管"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "风险管控"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "DRP"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "四全穿透"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "十大领域"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "注智管理"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "FSSC"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "治理体系"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "三个穿透"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "一体两翼"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "组织领导"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldM4wiily",
+        "multiple": false,
+        "name": "类型",
+        "options": [
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "政策"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "制度"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "案例"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "讨论"
+          },
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "报告"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "邮件"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "会议纪要"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "笔记"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldKt71VAj",
+        "multiple": false,
+        "name": "优先级",
+        "options": [
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "高"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "中"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "低"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "bidirectional": true,
+        "bidirectional_link_field_id": "fldHLcgoOl",
+        "id": "fldBhzooSU",
+        "link_table": "tbld44JtQaj95aEk",
+        "name": "关联议题 (L4)",
+        "type": "link"
+      },
+      {
+        "default_value": null,
+        "id": "fldBDI2XYo",
+        "name": "备注",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldcJ0Rxlv",
+        "multiple": false,
+        "name": "来源类型",
+        "options": [
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "飞书Doc"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "邮件"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "会议"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "口头"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "外部网站"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "微信"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "flduQoX3dX",
+        "multiple": false,
+        "name": "业务线",
+        "options": [
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "财务"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "飞行"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "营销"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "地面服务"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "运行控制"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "客舱"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "货运"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "管理支持"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "bidirectional": false,
+        "id": "fld2bGlCnR",
+        "link_table": "tblokEQHWJwp7Tqh",
+        "name": "关联顶层设计",
+        "type": "link"
+      }
+    ],
+    "total": 13
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.60",
+      "latest": "1.0.77",
+      "message": "lark-cli 1.0.77 available, current 1.0.60, run: lark-cli update"
+    }
+  }
+}
